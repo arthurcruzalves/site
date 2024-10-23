@@ -1,31 +1,78 @@
 @charset "UFT-8";
 
-/*****Breakpoints*****/
+/*Importação de font (google fonts)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Layout */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em; /* 1em = 100% (tamanho padrão) */
+}
+
+.container{
+    margin: 0 auto; /* centralizar o bloco */
+}
+
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    /* cabeçalho */
+    #logo img {
+        width: 70px;
+        height: 70px;
+        margin: 10px 0px 0px 10px;
+} 
+
+    header {
+        height: 70px;
+        background-color: beige;
+}   
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px) {
-    body {
-        background-color: aquamarine;
+    /* Cabecalho */
+    #logo img{
+        margin: 10px 0px 0px 10px;
+    }
+    .container {
+        margin: 0 auto; /* centralizar o bloco */
+
     }
 }
+
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 768px) {
-    body {
-        background-color: khaki;
-    }
+   /* cabeçalho */ 
+   .container {
+    max-width: 720px;
+    background-color: blue;
+   }
+   header {
+    height: 80px;
+   }
+   #logo img {
+
+   }
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 992px) {
-    body {
-        background-color: hotpink;
-    }
+  /* cabeçalho */
+  .container{
+    max-width: 960px;
+    background-color: brown;
+  }
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -33,20 +80,34 @@
 
 /* PCs / Notebook >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 1200px) {
-    body {
-        background-color: bisque;
-        color: blue;
-    }
+    .container {
+        max-width: 1200px;
+        background-color: violet;
+       }
+       header {
+        height: 150px;
+      }
+        #logo img {
+            width: 150px;
+            height: 150px;
+        }  
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 /* Telas FullHD / 4K / SmartTV >>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 1200px) {
-    body {
-        background-color: blueviolet;
-        color: azure;
-    }
+   .container {
+    max-width: 1600px;
+    background-color: khaki;
+   }
+   header {
+    height: 170px;
+  }
+    #logo img {
+        width: 170px;
+        height: 170px;
+    }  
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
