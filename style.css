@@ -33,6 +33,7 @@
 
 /* Layout >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 html {
+      /* Rolagem suave do conteúdo */
     scroll-behavior: smooth;
 }
 
@@ -91,15 +92,17 @@ body {
 }
 
 .card a {
-    padding: 30px 100;
+    padding: 5px 20px;
     border: 0;
     background-color: var(--cinzaClaro);
+    font-size: 24px;
 }
 
+/* Topo do site */
 #topo {
-    position: fixed;
-    right: 10px;
-    height: 10px;
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
 }
 
 .Flex5 {
