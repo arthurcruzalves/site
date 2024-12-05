@@ -96,6 +96,23 @@ body {
     background-color: var(--cinzaClaro);
 }
 
+#topo {
+    position: fixed;
+    right: 10px;
+    height: 10px;
+}
+
+.Flex5 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Flex6 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /* Fim do Layout <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 
@@ -325,6 +342,59 @@ main h2 {
     justify-content: center;
 }
 
+/* rodapé */
+address {
+    padding: 35px 10px 50px 10px;
+    background: url(img/grunge-gray-concrete-textured-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+address a {
+    text-decoration: none;
+    color: #fff;
+}
+
+address img {
+    padding-top: 15px;
+}
+
+#iconeLocal {
+    display: none;
+}
+
+#dados {
+    margin: 30px 0px 15px 0px;
+}
+
+#googleMaps {
+    display: none;
+    width: 250px;
+    height: 350px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #05152b;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+#social {
+    margin-bottom: 20px;
+}
+
+#lia {
+    flex-direction: column;
+    align-items: center;
+}
+
+.googleMaps iframe{
+    display: none;
+}
+
+
 /* Fim | Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>*/
 
 
@@ -470,7 +540,7 @@ main h2 {
 
     /****** Banner ******/
     main h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     main h2 {
@@ -508,6 +578,19 @@ main h2 {
     #imagemFaixa img {
         width: 300px;
         height: 300px;
+    }
+
+     /* Rodapé */
+    #iconeLocal {
+        display: inline;
+    }
+
+    #iconeMapa {
+        display: none;
+    }
+
+    #googleMaps {
+        display: inline;
     }
    
 }
