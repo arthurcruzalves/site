@@ -88,7 +88,8 @@ body {
 
 .card p {
     text-align: left;
-    padding: 10px 30px 50px 30px;
+    text-align: center;
+    padding: 10px 20px 20px 10px;
 }
 
 .card a {
