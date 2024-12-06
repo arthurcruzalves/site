@@ -586,9 +586,6 @@ footer {
         display: none;
     }
 
-    #googleMaps {
-        display: inline;
-    }
     .Flex6 {
         display: flex;
         justify-content: space-around;
