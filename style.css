@@ -76,6 +76,7 @@ body {
     border: 3px solid var(--cinzaClaro);
     border-radius: 25px;
     text-align: center;
+    margin: 10px 10px;
 }
 
 .card img {
@@ -97,7 +98,7 @@ body {
     border: 0;
     background-color: var(--cinzaClaro);
     font-size: 24px;
-    margin-bottom: 10px 20px 0px 10px;
+    margin-bottom: 0;
 }
 
 /* Topo do site */
