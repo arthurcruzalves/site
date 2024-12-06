@@ -468,6 +468,13 @@ footer {
         width: 440px;
         height: 440px;
     }
+
+    .Flex6 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+
+    }
 }
 
 /* Fim | Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
