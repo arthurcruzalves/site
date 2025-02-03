@@ -11,7 +11,7 @@ let anoAtual = new Date().getFullYear()
 ano.innerHTML = anoAtual
 
 const main = document.querySelector('main')
-const backgrounds = ['url(img/grupo.jpg)','url(img/but.jpg)','url(img/but2.jpg)']
+const backgrounds = ['url(img/grupo.jpg)','url(img/but2.jpg)','url(img/but.jpg)']
 
 let indice = 0
 
@@ -22,7 +22,7 @@ function slider(){
     }
     //troca da imagem de background no CSS
 main.style.backgroundImage = backgrounds[indice]
-main.style.transition = 'background-image 1s ease-in-out'
+main.style.transition = 'background-image 2s ease-in-out'
 }
 
 setInterval(slider, 3000)
