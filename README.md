@@ -1,5 +1,5 @@
 ![GitHub License](https://img.shields.io/github/license/arthurcruzalves/simulador)
-
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Farthurcruzalves.github.io%2Fsite%2F)
 
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
