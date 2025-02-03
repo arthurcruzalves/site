@@ -1,4 +1,3 @@
-![GitHub License](https://img.shields.io/github/license/arthurcruzalves/site)
 
 
 # HTML5 e CSS3
